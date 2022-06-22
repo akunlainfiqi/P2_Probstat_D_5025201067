@@ -46,3 +46,47 @@ H1 = rerata bandung - rerata bali !=0
 ### 3C
 
 ![3C](https://media.discordapp.net/attachments/221887784108032001/989047241887076413/unknown.png)
+
+### 3D
+
+nilai kritikal = 0.05 dan p-value = 0.06049
+
+### 3E
+
+null hipotesa diterima
+
+### 3F
+
+rerata kedua populasi sama
+
+## 4
+
+### 4A
+
+![4A](https://media.discordapp.net/attachments/869563207658913802/989037818288418816/unknown.png)
+
+### 4B
+
+![4B](https://media.discordapp.net/attachments/221887784108032001/989048210922274836/unknown.png)
+
+p-value = 0.8054
+
+null hipotesis diterima karena p-value lebih besar daripada significant level dan variansi ketiga populasi sama
+
+### 4C
+
+![4C](https://media.discordapp.net/attachments/221887784108032001/989048675089125406/unknown.png)
+
+### 4D
+
+p-value = 0.0013 sehingga tolak h0 dikarenakan p-value kurang dari significant level dan rata2 ketiga populasi berbeda
+
+### 4E
+
+![4E](https://media.discordapp.net/attachments/221887784108032001/989049194964729936/unknown.png)
+
+Iya, kucing 2 merupakan kucing terpendek dan kucing 1 merupakan kucing terpanjang
+
+### 4F 
+
+![4F](https://media.discordapp.net/attachments/869563207658913802/989039317634678784/unknown.png)
