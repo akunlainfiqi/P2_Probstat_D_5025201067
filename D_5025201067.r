@@ -1,4 +1,8 @@
 install.packages("BSDA")
+install.packages("ggpubr")
+install.packages("readr")
+install.packages("dplyr")
+install.packages("multcompView")
 library(BSDA)
 #1
 x <- c(78,75,67,77,70,72,78,74,77)
@@ -62,3 +66,46 @@ tsum.test(3.64, 1.67, 19, 2.79, 1.32, 27, var.equal=TRUE)
 #rerata kedua populasi sama
 
 #4
+dsKucing <- read.delim(file.choose())
+dsKucing$Group <- as.factor(dsKucing$Group)
+library(ggpubr)
+
+#4a
+qplot(dsKucing$Group, dsKucing$Length, xlab="Group", ylab = "Length")
+
+#4b
+bartlett.test(Length ~ Group, data = dsKucing)
+
+#4c
+model1 <- aov(Length ~ Group, data = dsKucing)
+summary(model1)
+
+#4d
+#gunakan data dari c
+
+#4e
+TukeyHSD(model1)
+
+#4f
+ggboxplot(dsKucing, "Group","Length",xlab = "Treatment",ylab="Weight")
+
+#5
+library(readr)
+library(multcompView)
+library(dplyr)
+library(ggplot2)
+data <- read.csv(file.choose())
+data$Temp <- as.factor(data$Temp)
+#5a
+qplot(data$Temp,data$Light,xlab="temp", ylab="light", color=data$Glass)
+
+#5b
+hasil <- aov(Light ~ Glass + Temp + Glass:Temp, data)
+summary(hasil)
+
+#5c
+group_by(data, Glass, Temp)%>%
+summarise(mean=mean(Light), sd=sd(Light))
+
+#5e
+multcompLetters4(hasil,hasilTukey)

@@ -19,6 +19,7 @@ Nama/NRP : Rafiqi Rachmat/5025201067
 ## 2
 
 ![2](https://media.discordapp.net/attachments/221887784108032001/989046342573776906/unknown.png)
+
 ### 2A
 
 Tidak setuju
@@ -87,6 +88,28 @@ p-value = 0.0013 sehingga tolak h0 dikarenakan p-value kurang dari significant l
 
 Iya, kucing 2 merupakan kucing terpendek dan kucing 1 merupakan kucing terpanjang
 
-### 4F 
+### 4F
 
 ![4F](https://media.discordapp.net/attachments/869563207658913802/989039317634678784/unknown.png)
+
+## 5
+
+### 5A
+
+![5A](https://media.discordapp.net/attachments/869563207658913802/989042847665770506/unknown.png)
+
+### 5B
+
+![5B](https://media.discordapp.net/attachments/221887784108032001/989050201241186314/unknown.png)
+
+### 5C
+
+![5C](https://media.discordapp.net/attachments/221887784108032001/989050340257185822/unknown.png)
+
+### 5D
+
+![5D](https://media.discordapp.net/attachments/221887784108032001/989050790708654090/unknown.png)
+
+### 5E
+
+![5E](https://media.discordapp.net/attachments/221887784108032001/989051024100687892/unknown.png)
