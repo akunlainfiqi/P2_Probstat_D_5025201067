@@ -6,30 +6,43 @@ Nama/NRP : Rafiqi Rachmat/5025201067
 
 ### 1A
 
-menggunakan fungsi sd
-![1A](https://media.discordapp.net/attachments/869563207658913802/980517028806946836/unknown.png)
+![1A](https://media.discordapp.net/attachments/221887784108032001/989045263589064714/unknown.png)
 
 ### 1B
 
-menggunakan fungsi t.test
-![1B](https://media.discordapp.net/attachments/869563207658913802/980517288698576896/unknown.png)
+![1B](https://media.discordapp.net/attachments/221887784108032001/989045441058471997/unknown.png)
 
 ### 1C
 
-menggunakan fungsi t.test juga
-![1C](https://media.discordapp.net/attachments/869563207658913802/980517431422377984/unknown.png)
+![1C](https://media.discordapp.net/attachments/221887784108032001/989046135563903017/unknown.png)
 
 ## 2
 
+![2](https://media.discordapp.net/attachments/221887784108032001/989046342573776906/unknown.png)
 ### 2A
 
-Setuju
+Tidak setuju
 
 ### 2B
 
-menggunakan fungsi tsum.test dari modul bsda
-![2B](https://media.discordapp.net/attachments/869563207658913802/980517746167140462/unknown.png)
+nilai p-value <2.2e-16 dan estimasi reratanya adalah 22735.61 < mean < 242264.39
 
 ### 2C
 
-kesimpulan yang didapatkan adalah rata-rata mobil lebih dari 20rb km/tahun
+nilai p value lebih kecil daripada significant level sehingga null hipotesis ditolak
+
+## 3
+
+### 3A
+
+H0 = rerata bandung - rerata bali = 0
+
+H1 = rerata bandung - rerata bali !=0
+
+### 3B
+
+![3B](https://media.discordapp.net/attachments/221887784108032001/989047016627785728/unknown.png)
+
+### 3C
+
+![3C](https://media.discordapp.net/attachments/221887784108032001/989047241887076413/unknown.png)

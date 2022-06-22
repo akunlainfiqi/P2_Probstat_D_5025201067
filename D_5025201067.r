@@ -1,26 +1,64 @@
 install.packages("BSDA")
 library(BSDA)
 #1
-x <- c(78,75,67,77,70,72,28,74,77)
+x <- c(78,75,67,77,70,72,78,74,77)
 y <- c(100,95,70,90,90,90,89,90,100)
 #1A
-selisih = y-x
-sdev <- sd(selisih)
+dif = y-x
+
+n <- length(dif)
+rata <- mean(dif)
+var <- 0
+
+for (i in dif) {var <- var + (i-rata)^2}
+var
+
+var <- var/(n-1)
+sdev <- var^(0.5)
 sdev
 
 #1B
-t.test(x,y,paired=TRUE)
+t.test(y,x,paired=TRUE)
 
 #1C
-t.test(x,y,mu=0,var.equal=TRUE)
-
+mean2 = 0
+t <- (rata - mean2)*(n^(0.5))/sdev
+if (2 * dt(t, n-1)<=0.05){
+  print("terdapat pengaruh yang signifikan")
+} else {
+  print("tidak terdapat pengaruh yang signifikan")
+}
+#2
+zsum.test(mean.x=23500,sigma.x=3900,n.x=100,mu=20000,alternative="two.sided", conf.level = 0.95)
 #2A
-#setuju
+#tidak setuju
 
 #2B
-tsum.test(mean.x=23500,s.x=3900,n.x=100,mu=20000,alternative="greater",var.equal=TRUE)
+#nilai p-value <2.2e-16 dan estimasi reratanya adalah 22735.61<mean<242264.39
 
 #2C
-#kesimpulan yang didapatkan adalah rata-rata mobil lebih dari 20rb km/tahun
+#nilai p value lebih kecil daripada significant level sehingga null hipotesis ditolak
 
 #3
+
+#3a
+#H0 = rerata bandung - rerata bali = 0
+#H1 = rerata bandung - rerata bali !=0
+
+#3b
+sampel<- (((19-1)*(1.67^2)+(27-1)*(1.32^2))/(19+27-2))^0.5
+sampel
+
+#3c
+tsum.test(3.64, 1.67, 19, 2.79, 1.32, 27, var.equal=TRUE)
+
+#3d
+#nilai kritikal = 0.05 dan p-value = 0.06049
+
+#3e
+#null hipotesa diterima
+
+#3f
+#rerata kedua populasi sama
+
+#4
